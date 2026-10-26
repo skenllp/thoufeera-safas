@@ -2,13 +2,8 @@
 
 Plain HTML/CSS/JS static site. Deploy the folder as-is on Vercel, Netlify, GitHub Pages, etc.
 
-## Before sharing the link
-`index.html` uses the token `%SITE_URL%` for the canonical URL and social-sharing image URLs
-(link previews require absolute URLs). After you know the live address, run:
-
-    node set-site-url.mjs https://your-domain.com
-
-(or find/replace `%SITE_URL%` in `index.html`). Nothing else needs changing.
+## Site URL
+The production URL (https://thoufeera-safas.vercel.app) is already set in `index.html` for the canonical and social-sharing tags. To change it later: `node set-site-url.mjs <new-url>` won't work once replaced, so edit those four tags by hand.
 
 ## Where things live
 - `index.html` – content
