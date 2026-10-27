@@ -1,4 +1,4 @@
-# Thoufeera & Muhammad Safas — Wedding Invitation
+# Thoufeera & Muhammed Safas — Wedding Invitation
 
 Plain HTML/CSS/JS static site. Deploy the folder as-is on Vercel, Netlify, GitHub Pages, etc.
 
